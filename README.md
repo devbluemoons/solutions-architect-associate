@@ -5,7 +5,7 @@ AWS Certified Solutions Architect – Associate
 - [ ] Region
   - [ ] AZ
 - [x] REST API
-- [ ] HTTP/HTTPS 
+- [ ] HTTP / HTTPS 
 - [ ] AWS CLI
 ```sh
 pip install awscli --upgrade --user
@@ -37,8 +37,27 @@ aws --version
       - [ ] RRS
       - [ ] One Zone IA
       - [ ] glacier
+        - [ ] vault
+        - [ ] standard
+        - [ ] expedited
+        - [ ] bulk
     - [ ] object versioning
     - [ ] object lifecycle
     - [ ] copy cross region
 - [ ] Block storage
+  - [ ] EBS (elastic block store)
+    - [ ] EC2 instance store
+    - [ ] SSD
+    - [ ] IOPS SSD
+    - [ ] HDD
 - [ ] File storage
+  - [ ] EFS (elastic file system)
+- [ ] on-premise storage
+  - [ ] SGW (storage gateway)
+    - [ ] file gateway
+    - [ ] volume gateway
+    - [ ] tape gateway
+- [ ] import / export tool
+  - [ ] snowball
+  - [ ] snowball edge
+  - [ ] snowball mobile
