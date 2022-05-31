@@ -44,6 +44,7 @@ aws --version
     - [ ] object versioning
     - [ ] object lifecycle
     - [ ] copy cross region
+    - [ ] select
 - [ ] Block storage
   - [ ] EBS (elastic block store)
     - [ ] EC2 instance store
