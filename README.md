@@ -19,6 +19,7 @@ aws --version
     - [ ] bucket
     - [ ] load balancers
     - [ ] web servers
+    - [ ] web hosting
     - [ ] indexing
     - [ ] storage
     - [ ] read after write consistent
