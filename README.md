@@ -14,8 +14,8 @@ aws --version
 ```
   
 ## Storage
-- [ ] Object Storage
-  - [ ] S3 (simple storage service)
+- Object Storage
+  - S3 (simple storage service)
     - [ ] bucket
     - [ ] load balancers
     - [ ] web servers
@@ -46,20 +46,26 @@ aws --version
     - [ ] object lifecycle
     - [ ] copy cross region
     - [ ] select
-- [ ] Block storage
-  - [ ] EBS (elastic block store)
+- Block storage
+  - EBS (elastic block store)
     - [ ] EC2 instance store
     - [ ] SSD
     - [ ] IOPS SSD
     - [ ] HDD
-- [ ] File storage
-  - [ ] EFS (elastic file system)
-- [ ] on-premise storage
+- File storage
+  - EFS (elastic file system)
+- on-premise storage
   - [ ] SGW (storage gateway)
     - [ ] file gateway
     - [ ] volume gateway
     - [ ] tape gateway
-- [ ] import / export tool
+- import / export tool
   - [ ] snowball
   - [ ] snowball edge
   - [ ] snowball mobile
+
+## Network
+- [ ] VPC
+
+## Computing
+- [ ] EC2
