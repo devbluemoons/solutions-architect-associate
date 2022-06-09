@@ -65,7 +65,40 @@ aws --version
   - [ ] snowball mobile
 
 ## Network
-- [ ] VPC
+- VPC
+  - [ ] CIDR
+  - [ ] subnet
+  - [ ] availability zone
+  - [ ] gateway
+    - [ ] internet gateway
+  - [ ] router
+    - [ ] routing
+    - [ ] routing table
+  - [ ] virtual firewall 
+    - [ ] security group
+    - [ ] network ACL 
+  - [ ] network class
+    - [ ] A class
+    - [ ] B class
+    - [ ] C class
+  - [ ] DHCP
+  - [ ] IP address (destination / host)
+    - [ ] public IP
+    - [ ] private IP
+  - [ ] IP masquerade
+  - [ ] NAT
+    - [ ] NAT gateway
+  - [ ] traffic
+    - [ ] in-bound
+    - [ ] out-bound
+    - [ ] port
+  - [ ] endpoint
+    - [ ] interface endpoint
+    - [ ] gateway endpoint
+  - [ ] peering
+  - [ ] transit gateway
+- VPN
+- Direct Connect
 
 ## Computing
 - [ ] EC2
