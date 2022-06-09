@@ -76,6 +76,8 @@ aws --version
     - [ ] routing table
   - [ ] virtual firewall 
     - [ ] security group
+      - [ ] stateful
+      - [ ] stateless
     - [ ] network ACL 
   - [ ] network class
     - [ ] A class
@@ -87,7 +89,8 @@ aws --version
     - [ ] private IP
   - [ ] IP masquerade
   - [ ] NAT
-    - [ ] NAT gateway
+    - [ ] NAT gateway (for IPv4)
+    - [ ] egress-only gateway (for IPv6)
   - [ ] traffic
     - [ ] in-bound
     - [ ] out-bound
@@ -97,6 +100,11 @@ aws --version
     - [ ] gateway endpoint
   - [ ] peering
   - [ ] transit gateway
+  - [ ] ENI
+  - [ ] EIP
+  - [ ] NACL
+  - [ ] VPG
+  - [ ] Flow Log
 - VPN
 - Direct Connect
 
