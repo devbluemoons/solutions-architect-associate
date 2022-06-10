@@ -2,12 +2,13 @@
 AWS Certified Solutions Architect – Associate  
   
 ## common
-- [ ] Region
-  - [ ] AZ
+- [x] Region
+  - [x] AZ
 - [x] REST API
-- [ ] HTTP / HTTPS 
-- [ ] AWS CLI
-```sh
+- [x] HTTP / HTTPS 
+- [x] AWS CLI
+```ShellSession
+# install
 pip install awscli --upgrade --user
 
 aws --version
@@ -100,13 +101,36 @@ aws --version
     - [ ] gateway endpoint
   - [ ] peering
   - [ ] transit gateway
-  - [ ] ENI
-  - [ ] EIP
+  - [ ] ENI (elastic network interface)
+  - [ ] EIP (elastic IP)
   - [ ] NACL
-  - [ ] VPG
+  - [ ] VPG (virtual private gateway)
   - [ ] Flow Log
 - VPN
 - Direct Connect
 
 ## Computing
-- [ ] EC2
+- EC2
+  - [x] SSH
+  - [ ] AMI (amazon machine image)
+    - [ ] OS
+    - [ ] software
+  - [ ] instance
+    - [ ] CPU
+    - [ ] memory
+    - [ ] storage
+      - [ ] EBS
+        - [ ] snapshot
+      - [ ] EFS
+    - [ ] network
+      - [ ] subnet
+      - [ ] ip address
+  - [ ] security group
+  - [ ] key pair
+    - [ ] public key
+    - [ ] private key
+  - [ ] ELB (elastic load balancing)
+    - [ ] ALB (application load balancer)
+    - [ ] NLB (network load balancer)
+    - [ ] OLB (classic load balancer)
+  - [ ] Auto Scaling
