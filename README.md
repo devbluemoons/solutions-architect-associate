@@ -66,7 +66,7 @@ aws --version
   - [ ] snowball mobile
 
 ## Network
-- VPC
+- VPC (virtual private cloud)
   - [ ] CIDR
   - [ ] subnet
   - [ ] availability zone
@@ -84,12 +84,12 @@ aws --version
     - [ ] A class
     - [ ] B class
     - [ ] C class
-  - [ ] DHCP
+  - [ ] DHCP (dynamic host configuration protocol)
   - [ ] IP address (destination / host)
     - [ ] public IP
     - [ ] private IP
   - [ ] IP masquerade
-  - [ ] NAT
+  - [ ] NAT (network address translation)
     - [ ] NAT gateway (for IPv4)
     - [ ] egress-only gateway (for IPv6)
   - [ ] traffic
@@ -103,14 +103,14 @@ aws --version
   - [ ] transit gateway
   - [ ] ENI (elastic network interface)
   - [ ] EIP (elastic IP)
-  - [ ] NACL
+  - [ ] NACL (network access control list)
   - [ ] VPG (virtual private gateway)
   - [ ] Flow Log
 - VPN
 - Direct Connect
 
 ## Computing
-- EC2
+- EC2 (elastic compute cloud)
   - [x] SSH
   - [ ] AMI (amazon machine image)
     - [ ] OS
@@ -119,9 +119,9 @@ aws --version
     - [ ] CPU
     - [ ] memory
     - [ ] storage
-      - [ ] EBS
+      - [ ] EBS (elastic block store)
         - [ ] snapshot
-      - [ ] EFS
+      - [ ] EFS (elastic file system)
     - [ ] network
       - [ ] subnet
       - [ ] ip address
