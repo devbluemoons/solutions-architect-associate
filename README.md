@@ -68,8 +68,8 @@ aws --version
 ## Network
 - VPC (virtual private cloud)
   - [ ] CIDR
-  - [ ] subnet
-  - [ ] availability zone
+  - [x] subnet
+  - [x] AZ (availability zone)
   - [ ] gateway
     - [ ] internet gateway
   - [ ] router
@@ -85,11 +85,13 @@ aws --version
     - [ ] B class
     - [ ] C class
   - [ ] DHCP (dynamic host configuration protocol)
-  - [ ] IP address (destination / host)
-    - [ ] public IP
-    - [ ] private IP
+  - [x] IP address (destination / host)
+    - [x] public IP
+    - [x] private IP
   - [ ] IP masquerade
+  - [ ] global accelerator
   - [ ] NAT (network address translation)
+    - [ ] NAT device
     - [ ] NAT gateway (for IPv4)
     - [ ] egress-only gateway (for IPv6)
   - [ ] traffic
