@@ -36,13 +36,16 @@ aws --version
     - [ ] storage class
       - [ ] standard
       - [ ] standard IA
-      - [ ] RRS
+      - [ ] intelligent tiering
+      - [ ] infrequent access
+      - [ ] RRS (reduced redundancy storage)
       - [ ] One Zone IA
       - [ ] glacier
         - [ ] vault
         - [ ] standard
         - [ ] expedited
         - [ ] bulk
+      - [ ] glacier deep archive
     - [ ] object versioning
     - [ ] object lifecycle
     - [ ] copy cross region
@@ -135,4 +138,5 @@ aws --version
     - [ ] ALB (application load balancer)
     - [ ] NLB (network load balancer)
     - [ ] OLB (classic load balancer)
-  - [ ] Auto Scaling
+  - [ ] snapshot
+  - [ ] auto scaling
