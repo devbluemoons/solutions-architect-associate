@@ -11,9 +11,76 @@ AWS Certified Solutions Architect – Associate
 # install
 pip install awscli --upgrade --user
 
+# version check
 aws --version
 ```
-  
+
+## Computing
+- EC2 (elastic compute cloud)
+  - [ ] AMI (amazon machine image)
+    - [ ] quick start AMI
+    - [ ] market place AMI
+    - [ ] community AMI
+    - [ ] private AMI
+  - [ ] instance type
+    - [ ] general purpose
+    - [ ] compute optimized
+    - [ ] memory optimized
+    - [ ] accelerated computing
+    - [ ] storage optimized
+  - [ ] VPC (virtual private cloud)
+  - [ ] tenancy
+    - [ ] shared tenancy
+    - [ ] dedicated instance
+    - [ ] dedicated host
+  - [ ] placement groups
+    - [ ] cluster
+    - [ ] spread
+    - [ ] partition
+  - [ ] instance purchasing options
+    - [ ] on-demand
+    - [ ] reserved
+    - [ ] spot
+  - [ ] lifecycle
+  - [ ] resource tag
+  - [ ] storage volume
+    - [ ] EBS (elastic block store)
+      - [ ] general purpose SSD
+      - [ ] provisioned IOPS SSD
+      - [ ] throughput optimized HDD
+      - [ ] cold HDD
+    - [ ] instance store volume
+  - [ ] security
+    - [ ] security group
+    - [ ] NACL (network access control list)
+  - [ ] IAM role
+  - [ ] NAT (network address transition) device
+    - [ ] NAT instance
+    - [ ] NAT gateway
+  - [ ] key pair
+  - [ ] auto scaling
+    - [ ] launch configurations
+    - [ ] launch template
+    - [ ] auto scaling group
+      - [ ] minimum
+      - [ ] maximum
+      - [ ] desired capacity
+      - [ ] ALB (application load balancer)
+      - [ ] health check
+      - [ ] options
+        - [ ] manual scaling
+        - [ ] dynamic scaling policies
+        - [ ] simple scaling policies
+        - [ ] step scaling policies
+        - [ ] target tracking policies
+        - [ ] schedulted actions
+  - [ ] system manager
+    - [ ] actions
+      - [ ] automation
+      - [ ] command
+      - [ ] policy
+    - [ ] insights
+
 ## Storage
 - Object Storage
   - S3 (simple storage service)
@@ -113,30 +180,3 @@ aws --version
   - [ ] Flow Log
 - VPN
 - Direct Connect
-
-## Computing
-- EC2 (elastic compute cloud)
-  - [x] SSH
-  - [ ] AMI (amazon machine image)
-    - [ ] OS
-    - [ ] software
-  - [ ] instance
-    - [ ] CPU
-    - [ ] memory
-    - [ ] storage
-      - [ ] EBS (elastic block store)
-        - [ ] snapshot
-      - [ ] EFS (elastic file system)
-    - [ ] network
-      - [ ] subnet
-      - [ ] ip address
-  - [ ] security group
-  - [ ] key pair
-    - [ ] public key
-    - [ ] private key
-  - [ ] ELB (elastic load balancing)
-    - [ ] ALB (application load balancer)
-    - [ ] NLB (network load balancer)
-    - [ ] OLB (classic load balancer)
-  - [ ] snapshot
-  - [ ] auto scaling
