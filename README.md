@@ -180,3 +180,18 @@ aws --version
   - [ ] Flow Log
 - VPN
 - Direct Connect
+
+## Database
+- RDS (relational database service)
+  - [ ] instance
+    - [ ] VPC (virtual private cloud)
+    - [ ] not allow ssh
+    - [ ] not allow direct connection from EC2
+    - [ ] type
+      - [ ] standard
+- Redshift
+- DynamoDB
+
+## Identity and Access Management
+
+## Monitoring
