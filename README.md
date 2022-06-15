@@ -189,9 +189,31 @@ aws --version
     - [ ] not allow direct connection from EC2
     - [ ] type
       - [ ] standard
+  - [ ] engine
+    - [ ] Amazon Aurora
+    - [ ] PostgreSQL
+    - [ ] MySQL
+    - [ ] MariaDB
+    - [ ] Oracle Database
+    - [ ] Microsoft SQL Server
 - Redshift
 - DynamoDB
 
 ## Identity and Access Management
 
 ## Monitoring
+- [ ] CloudTrail
+- [ ] CloudWatch
+- [ ] Config
+
+## DNS / Network Routing
+- [ ] DNS (domain name system)
+- [ ] Route 53
+- [ ] CloudFront
+
+## Automating
+- [ ] SQS
+- [ ] Kinesis
+  - [ ] Video Streams
+  - [ ] Data Streams
+  - [ ] Data Firehose
