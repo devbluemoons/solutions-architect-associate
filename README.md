@@ -213,6 +213,7 @@ aws --version
 
 ## Automating
 - [ ] SQS
+- [ ] SNS
 - [ ] Kinesis
   - [ ] Video Streams
   - [ ] Data Streams
