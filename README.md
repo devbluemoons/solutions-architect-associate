@@ -218,3 +218,4 @@ aws --version
   - [ ] Video Streams
   - [ ] Data Streams
   - [ ] Data Firehose
+- [ ] Amplify
