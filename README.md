@@ -7,6 +7,9 @@ AWS Certified Solutions Architect – Associate
 - [x] REST API
 - [x] HTTP / HTTPS 
 - [x] AWS CLI
+- [ ] jump server
+- [ ] bastion host
+
 ```ShellSession
 # install
 pip install awscli --upgrade --user
