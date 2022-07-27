@@ -7,8 +7,7 @@ AWS Certified Solutions Architect – Associate
 - [x] REST API
 - [x] HTTP / HTTPS 
 - [x] AWS CLI
-- [ ] jump server
-- [ ] bastion host
+- [ ] bastion host (jump server)
 
 ```ShellSession
 # install
